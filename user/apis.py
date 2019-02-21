@@ -10,4 +10,5 @@ def submit_vcode(request):
     print(phone)
     send_vcode(phone)
     print("b")
+    print('a')
     return JsonResponse({'msg': 'ok'})
