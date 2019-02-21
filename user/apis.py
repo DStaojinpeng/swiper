@@ -9,4 +9,5 @@ def submit_vcode(request):
     phone = request.GET.get('phone')
     print(phone)
     send_vcode(phone)
+    print("b")
     return JsonResponse({'msg': 'ok'})
